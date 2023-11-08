@@ -1,0 +1,38 @@
+{
+  "app": {
+    "port": 2326,
+    "secret_key" : "",
+    "domain" : ""
+  },
+  "db": {
+    "host": "localhost",
+    "user": "",
+    "password": "",
+    "database": ""
+  },
+  "faceitTokens": {
+    "faceitDataAPIKey": "",
+    "faceitClientID":  "",
+    "faceitClientSecret":  "",
+    "faceitAuthBearer":  ""
+  },
+  "discord": {
+    "discordUserAgent" : "",
+    "dicordAuthBearer" : "",
+    "discordClientID":  "",
+    "discordClientSecret":  "",
+    "verifiedRoleID" : "",
+    "verifiedRoleGuildID" : ""
+  },
+  "hubs": {
+    "ID-HUB-1": [
+      "member",
+      "verified-role-id-for-this-hub"
+    ],
+    "ID-HUB-2": [
+      "member",
+      "verified-role-id-for-this-hub"
+    ]
+  },
+  "discordWebhookNameChanges" : ""
+}
